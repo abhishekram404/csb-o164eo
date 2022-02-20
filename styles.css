@@ -1,0 +1,26 @@
+section {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#page1,
+#page2 {
+  scroll-behavior: smooth;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.page1 {
+  background-color: #deaaca;
+}
+.page2 {
+  background-color: #38bd38;
+}
+html {
+  scroll-behavior: smooth;
+}
